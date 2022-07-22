@@ -1,0 +1,177 @@
+
+
+                    
+.whoweare-fon {
+    background: #5D62B5;
+    border-radius: 40px;
+     width: 100%;
+    margin-top: -83px;
+    padding: 0 15px;
+    max-height: 700px;
+    position: relative;
+    margin-bottom: 170px;
+
+}
+
+.whoweare-content {
+    max-width: 846px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+   
+
+
+    // .whoweare-content__logo
+
+    &__logo {
+        margin-bottom: 33px;
+        position: relative;
+        
+        &::before{
+            content: "";
+            width: 27px;
+            height: 27px;
+            display: block;
+            position: absolute;
+            top: -2px;
+            left: -3px;
+            background: url("../img/whoweare/whologo.png") center/cover no-repeat;
+            
+        }
+
+    
+       
+    }
+
+    // .whoweare-content__logo-p
+
+    &__logo-p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 200%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #F5F5F5;
+        padding-left: 30px;
+    }
+
+    // .whoweare-content__tatle
+
+    &__tatle {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #F5F5F5;
+        margin-bottom: 36px;
+        @media (max-width:423.98px) {
+            font-size: 28px;
+            margin-bottom: 20px;
+            line-height: 40px;
+            
+        }
+      
+
+    }
+
+    // .whoweare-content__text
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+         letter-spacing: 0.15px;           
+        color: #F5F5F5;
+        margin-bottom: 54px;
+
+        @media (max-width:423.98px) {
+         
+            margin-bottom: 25px;
+            line-height: 150%;
+            
+        }
+    }
+
+ 
+  
+
+		// .whoweare-content__picture
+
+		.whoweare-content__picture {
+            position: relative;
+            max-width: 846px;
+            max-height: 420px;
+            width: 100%;
+            border-radius: 40px;
+            background:url("../img/whoweare/whodog.png") center/cover no-repeat;
+            padding: 0 0 50% 0;
+            z-index: 3;
+            
+
+            
+    
+        }
+        
+
+
+   
+}
+.decore {
+
+    // .decore__point
+
+    &__point {
+        position: absolute;
+        top: -20%;
+        right: -10%;
+        padding-left: 20px;
+
+        @media(max-width: 1260px){
+            display: none;
+
+        }
+    }
+
+    // .decore__spot
+
+    &__spot {
+        position: absolute;
+        bottom: -10%;
+        left: -3%;  
+        z-index: 1;
+        @media(max-width: 1130px){
+            display: none;
+
+        }
+
+      
+    }
+}
+
+.logo{
+   
+    margin-bottom: 33px;
+    position: relative;
+    
+    &::before{
+        content: "";
+        width: 27px;
+        height: 27px;
+        display: block;
+        position: absolute;
+        top: -2px;
+        left: -3px;
+        background: url("../img/whoweare/whologo.png") center/cover no-repeat;
+        
+    }
+
+
+   
+}

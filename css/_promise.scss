@@ -1,0 +1,102 @@
+.promise__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.promise-logo {
+    margin-bottom: 33px;
+    position: relative;
+    
+    &::before{
+        content: "";
+        width: 27px;
+        height: 27px;
+        display: block;
+        position: absolute;
+        top: -2px;
+        left: -3px;
+        background: url("../img/promise/logoprom.svg") center/cover no-repeat;
+        
+    }
+
+   
+}
+.promise-logo__p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color:#5D62B5;;
+    padding-left: 30px;
+}
+.promise-tatle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    padding-bottom: 68px;
+    
+
+
+color: #000000;
+}
+.promise-items {
+    display: flex;
+    margin-bottom: 50px;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+    min-width: 320px;
+  
+}
+.promise-item {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 1 33.333%;
+    padding: 0 12px;
+    min-width: 320px;
+    @media (max-width:420px) {
+            
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        
+        
+    }
+}
+.promise__item-icon {
+align-items: flex-start;
+padding-right: 23px;
+}
+.promise__content {
+}
+.promise__content-tatle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 137%;
+    color: #F2726F;
+    margin-bottom: 20px;
+    @media (max-width:420px) {
+            
+        text-align: center;
+          
+          
+      }
+
+   
+}
+.promise__content-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:150%;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    margin-bottom: 41px;
+    flex: 1 1 auto;
+}

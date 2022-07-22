@@ -1,0 +1,155 @@
+.dog {
+    background: #29C3BE ;
+	display: flex;
+	padding: 0 15px;
+	@media (max-width:575px) {
+		flex-direction: column-reverse;
+		
+		
+	}
+}
+.dog-left {
+	flex:  0 1 50%;
+
+		// .dog-left__dog
+
+		&__dog {
+			position: relative;
+			padding: 0 0 68% 0;
+			
+		}
+
+		// .dog-left__dog-img
+
+		&__dog-img {
+			object-fit: cover;
+			margin-bottom: -17px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		// .dog-left__point
+
+		&__point {
+		}
+
+		// .dog-left__spot
+
+		&__spot {
+		}
+}
+.dog-rigch {
+	flex: 0 1 50%;
+	background: url("../img/dog/Line\ 1.svg") 0 0 no-repeat;
+	@media (max-width:1380px) {
+		background: none;	
+		
+	}
+	
+
+		// .dog-rigch__boll
+
+		&__boll {
+			position: relative;
+			transform:scale(100%) ;
+			bottom: 5%;
+			left: 67%;	
+			
+			@media (max-width:1441px) {
+				left: 77%;	
+				
+			}
+			@media (max-width:1380px) {
+				left: 50%;	
+				bottom: 10%;
+				transform: scale(70%);
+				
+			}
+			@media (max-width:1170px) {
+				left: 50%;	
+				bottom: 15%;
+				transform: scale(55%);
+				
+			}
+			@media (max-width:900px) {
+				left: 50%;	
+				bottom: 20%;
+				transform: scale(45%);
+				
+			}
+			@media (max-width:820px) {
+				display: none;
+				
+			}
+			
+		}
+
+		// .dog-rigch__boll-img
+
+		&__boll-img {
+			object-fit: cover;
+			
+			
+			
+		}
+}
+.dog-rigch-content {
+
+	max-width: 410px;
+	position: relative;
+	top: 18%;
+	left: 15%;
+	@media (max-width:768px) {
+		max-width: 300px;
+		
+		
+	}
+	@media (max-width:686px) {
+		max-width: 200px;
+		
+		
+	}
+		// .dog-rigch-content__tatle
+
+		&__tatle {
+	        font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 117%;
+            color: #FFFFFF;
+			@media (max-width:768px) {
+				font-size: 30px;
+				
+			}
+			@media (max-width:686px) {
+				font-size: 22px;
+				
+				
+			}
+			
+		}
+
+		// .dog-rigch-content__button
+
+		&__button {
+			font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 55%;
+            color: #FFFFFF;
+            background: #F2726F; ;
+            border-radius: 8px;
+            display: block;
+            padding: 16px 30px;
+            text-transform: uppercase;
+            align-self:center;
+            cursor: pointer;
+			max-width: 210px;
+			margin-top: 42px;
+		}
+}
+
+
