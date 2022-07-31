@@ -522,7 +522,7 @@ html {
   padding: 0 12px;
   min-width: 320px;
 }
-@media (max-width: 420px) {
+@media (max-width: 645px) {
   .promise-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -552,7 +552,7 @@ html {
   color: #F2726F;
   margin-bottom: 20px;
 }
-@media (max-width: 420px) {
+@media (max-width: 645px) {
   .promise__content-tatle {
     text-align: center;
   }
@@ -569,6 +569,11 @@ html {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+}
+@media (max-width: 645px) {
+  .promise__content-text {
+    text-align: center;
+  }
 }
 
 .dog {
@@ -683,6 +688,11 @@ html {
     max-width: 200px;
   }
 }
+@media (max-width: 585px) {
+  .dog-rigch-content {
+    margin: 20px 0;
+  }
+}
 .dog-rigch-content__tatle {
   font-style: normal;
   font-weight: 900;
@@ -767,6 +777,11 @@ html {
             justify-content: center;
   }
 }
+@media (max-width: 620px) {
+  .services__items {
+    margin: 0 -12px 18px -12px;
+  }
+}
 .services__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -775,6 +790,11 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 112px;
+}
+@media (max-width: 620px) {
+  .services__button {
+    margin-bottom: 20px;
+  }
 }
 .services__button-link {
   font-style: normal;
@@ -1368,6 +1388,11 @@ html {
   margin: 110px 0 33px 0;
   z-index: 2;
 }
+@media (max-width: 620px) {
+  .customers__logo {
+    margin: 30px 0;
+  }
+}
 .customers__logo::before {
   content: "";
   width: 27px;
@@ -1409,6 +1434,11 @@ html {
 .customers-content__tatle {
   max-width: 324px;
   padding: 45px 12px;
+}
+@media (max-width: 620px) {
+  .customers-content__tatle {
+    padding: 5px 12px;
+  }
 }
 .customers-content__tatle-h3 {
   font-style: normal;
@@ -1523,6 +1553,11 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media (max-width: 620px) {
+  .impact-header {
+    margin-top: 30px;
   }
 }
 .impact-header__wrapper-tatle {
@@ -1844,6 +1879,7 @@ html {
 }
 @media (max-width: 620px) {
   .footer-tatle {
+    color: #5D62B5;
     text-align: center;
   }
 }
@@ -1870,6 +1906,11 @@ html {
 }
 .footer-link-blok-menu__items :not(:last-child) {
   margin-bottom: 11px;
+}
+@media (max-width: 620px) {
+  .footer-link-blok-menu__items {
+    margin-bottom: 11px;
+  }
 }
 .footer-link-blok-menu__item {
   min-width: 160px;

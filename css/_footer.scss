@@ -114,6 +114,7 @@
     padding-top: 13px;
     margin-bottom: 28px;
     @media (max-width:620px) {
+        color: #5D62B5;
        
         text-align: center;
        
@@ -136,6 +137,10 @@
         :not(:last-child){
             margin-bottom: 11px;
         }
+        @media (max-width:620px) {
+            margin-bottom: 11px;
+             
+         }
     }
 
     // .footer-link-blok-menu__item
