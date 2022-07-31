@@ -39,6 +39,7 @@ html {
 	line-height: 1;
 	box-sizing: border-box;
 	font-family: roboto; 
+	overflow-x: hidden;
 }
 [class*="__conteiner"]{
 	max-width: 1050px;

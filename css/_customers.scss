@@ -1,0 +1,150 @@
+.customers {
+
+    background: #F5F5F5;
+    // .customers__conteiner
+    position: relative;
+    z-index: 1;
+    padding-bottom: 10%;
+  
+
+    
+
+  
+
+    // .customers__logo
+
+    &__logo {
+        position: relative;
+        margin:110px 0 33px 0;
+        z-index: 2;
+        
+        &::before{
+            content: "";
+            width: 27px;
+            height: 27px;
+            display: block;
+            position: absolute;
+            top: -2px;
+            left: -3px;
+            background: url("../img/promise/logoprom.svg") center/cover no-repeat;
+            
+        }
+    }
+
+    // .customers__logo-p
+
+    &__logo-p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 200%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color:#5D62B5;;
+        padding-left: 30px;
+    }
+}
+.customers-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    row-gap: 15px;
+    margin: 0 -12px;
+
+    // .customers-content__tatle
+
+    &__tatle {
+        max-width: 324px;
+        padding: 45px 12px;
+      
+    }
+
+    // .customers-content__tatle-h3
+
+    &__tatle-h3 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 117%;
+        color: #000000;
+    }
+
+    // .customers-content__items
+
+    &__items {
+        display: flex;
+        flex: 1 1 33.333%;
+        padding: 0 12px;
+
+    }
+
+    // .customers-content__item
+
+    &__item {
+        min-width: 320px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 45px;
+        row-gap: 30px;
+        
+    }
+
+    // .customers-content__item-text
+
+    &__item-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:150%;
+        letter-spacing: 0.15px;
+        color: #4B4B4B;
+        flex: 1 1 auto;
+        
+    }
+
+    // .customers-content__item-aftor
+
+    &__item-aftor {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    // .customers-content__item-aftor-img
+
+    &__item-aftor-img {
+        padding-right: 17px;
+       
+    }
+
+    // .customers-content__item-aftor-p
+
+    &__item-aftor-p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height:150%;
+        letter-spacing: 0.15px;      
+        color: #F2726F;
+        align-items: center;
+        
+        height: 100%;
+    }
+}
+.customers-decore {
+    position: absolute;
+    left: 0%;
+    top: -180%;
+    z-index: 1;
+    @media (max-width:1023px) {
+        display: none;
+        
+    }
+}
+

@@ -1,5 +1,7 @@
 .form {
     background: url("../img/form/formfon.png") center/cover no-repeat;
+    position: relative;
+    z-index: 2;
     @media (max-width:1165) {
            
         
@@ -265,5 +267,22 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
